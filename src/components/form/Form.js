@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import { Firestore } from "@firebase/firestore";
 
+import './form.css'
+
 function Form () {
 
 const AddItem = ({ firestore }) => {
