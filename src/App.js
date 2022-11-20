@@ -10,6 +10,7 @@ import Book from './views/book/Book';
 import Contact from './views/contact/Contact'
 
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
