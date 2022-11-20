@@ -1,0 +1,11 @@
+body {
+    background-image: url('./images/retro-restaurant.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-size: auto; */
+}
+
+* {
+    font-family: monospace;
+    font-size: 20px;
+
+}
