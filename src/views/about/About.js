@@ -1,6 +1,6 @@
 import React from "react";
 
-function Book () {
+function About () {
     return (
         <div>
             <h1>About</h1>
@@ -11,4 +11,4 @@ function Book () {
     )
 }
 
-export default Book
+export default About
