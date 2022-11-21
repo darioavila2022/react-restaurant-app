@@ -25,17 +25,17 @@ const Form = () => {
     try {
       const docRef = await addDoc(collection(db, "Contact"), details);
       console.log("Document written with ID: ", docRef.id);
+      modal.classList.toggle('display-none')
+      close.addEventListener("click", () => {
+      modal.classList.toggle('display-none')
+      })
     } catch (e) {
       console.error("Error in adding document ", e)
-      modal.classList.toggle('display-none')
     } finally {
       document.getElementById('contactForm').reset()
-      close.addEventListener('click', () => {
-        modal.classList.toggle('display-none')
-      })
     }
   }
-
+  
 
   function handleChange(event) {
     const { target } = event
@@ -50,8 +50,8 @@ const Form = () => {
         <div className="modal">
           <img src="https://i0.wp.com/t-artmagazine.com/wp-content/uploads/2021/04/vector-creator.png?fit=800%2C534&ssl=1" alt="" />
           <p>Thank you for your reservation!</p>
-          <p>We will see you at the restaurant</p>
-          <button type="close">Close</button>
+          <p>See you at the restaurant</p>
+          <button className="btn modal-close">Close</button>
         </div>
       </div>
       <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
