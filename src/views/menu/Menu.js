@@ -6,21 +6,53 @@ function Menu() {
     return (
         <div>
             <Products
-                name="product1"
-                description="description1"
-                price="$10"
+                name="Hamburger"
+                description="#1"
+                price="$10.000"
+                image={require('../../images/hamburger-image.png')}
             />
             <Products
-                name="product2"
-                description="description2"
-                price="$20"
+                name="Hamburger"
+                description="#2"
+                price="$10.000"
+                image={require('../../images/hamburger-image.png')}
             />
             <Products
-                name="product3"
-                description="description3"
-                price="$0"
+                name="Hamburger"
+                description="#3"
+                price="$10.000"
+                image={require('../../images/hamburger-image.png')}
             />
-            
+              <Products
+                name="Hamburger"
+                description="#4"
+                price="$10.000"
+                image={require('../../images/hamburger-image.png')}
+            />
+             <Products
+                name="Hamburger"
+                description="#5"
+                price="$10.000"
+                image={require('../../images/hamburger2-image.png')}
+            />
+            <Products
+                name="Hamburger"
+                description="#6"
+                price="$10.000"
+                image={require('../../images/hamburger2-image.png')}
+            />
+            <Products
+                name="Hamburger"
+                description="#7"
+                price="$10.000"
+                image={require('../../images/hamburger2-image.png')}
+            />
+              <Products
+                name="Hamburger"
+                description="#8"
+                price="$10.000"
+                image={require('../../images/hamburger2-image.png')}
+            />      
         </div>
     )
 }

@@ -7,6 +7,7 @@ function Products(props) {
         <p>{props.name}</p>
         <p>{props.description}</p>
         <p>{props.price}</p>
+        <img src={props.image} alt='WebPage'/>  
     </div>
     );
 }
