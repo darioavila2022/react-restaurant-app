@@ -24,7 +24,7 @@ const Form = () => {
     event.preventDefault()
     console.log(details)
     try {
-      const docRef = await addDoc(collection(db, "Contact"), details);
+      const docRef = await addDoc(collection(db, "Booking"), details);
       console.log("Document written with ID: ", docRef.id);
       modal.classList.toggle('display-none')
       close.addEventListener("click", () => {
@@ -67,7 +67,6 @@ const Form = () => {
           <option value="3">3 People</option>
           <option value="4">4 People</option>
         </select>
-
         <h4>Phone Number:</h4> <input type="tel" name="phone" onChange={handleChange} />
         <h4>Time and Date of reservation:</h4> <input type="datetime-local" name="reservationTime" onChange={handleChange} />
         <h4>Additional Comments:</h4> <textarea type="text" name="comments" onChange={handleChange} />
