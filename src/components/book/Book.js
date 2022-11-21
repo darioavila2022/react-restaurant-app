@@ -14,7 +14,7 @@
 // export default Book
 
 import React from "react";
-import Form from "../../components/form/Form";
+import Form from "./form/Form";
 
 import './book.css'
 

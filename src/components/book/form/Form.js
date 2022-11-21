@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import { addDoc, collection } from "firebase/firestore";
-import { db } from "../../config/firestore";
+import { db } from "../../../config/firestore";
 
 import './form.css'
-import modalImage from '../../images/modalImage.jpg'
+import modalImage from '../../../images/modalImage.jpg'
 
 const Form = () => {
   const modal = document.querySelector(".modal-wrap")

@@ -33,26 +33,26 @@ function Menu() {
                 name="Hamburger"
                 description="#5"
                 price="$10.000"
-                image={require('../../images/hamburger2-image.png')}
+                image={require('../../images/hamburger-image.png')}
             />
             <Products
                 name="Hamburger"
                 description="#6"
                 price="$10.000"
-                image={require('../../images/hamburger2-image.png')}
+                image={require('../../images/hamburger-image.png')}
             />
             <Products
                 name="Hamburger"
                 description="#7"
                 price="$10.000"
-                image={require('../../images/hamburger2-image.png')}
+                image={require('../../images/hamburger-image.png')}
             />
               <Products
                 name="Hamburger"
                 description="#8"
                 price="$10.000"
-                image={require('../../images/hamburger2-image.png')}
-            />      
+                image={require('../../images/hamburger-image.png')}
+            />     
         </div>
     )
 }
