@@ -17,29 +17,33 @@ import './navbar.css';
 //   )
 // }
 
-const Navbar  = () => {
+const Navbar = () => {
   return (
     <>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/menu">Menu</Link>
-        </li>
-        <li>
-          <Link to="/book">Book</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
-    <Outlet/>
+      <nav>
+        <ul>
+          <span>
+            <img src={require('../../images/retro-logo.png')} className='navbar-logo'></img>
+          </span>
+          <li>
+            <Link to="/" className='navlink'>Home</Link>
+          </li>
+          <li>
+            <Link to="/about" className='navlink'>About</Link>
+          </li>
+          <li>
+            <Link to="/menu" className='navlink'>Menu</Link>
+          </li>
+          <li>
+            <Link to="/book" className='navlink'>Book</Link>
+          </li>
+          <li>
+            <Link to="/contact" className='navlink'>Contact</Link>
+          </li>
+
+        </ul>
+      </nav>
+      <Outlet />
     </>
   )
 }
