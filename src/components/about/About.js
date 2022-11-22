@@ -5,7 +5,7 @@ function About () {
     return (
         <div className="about-container">
             <h1 className='about-title'>About us</h1>
-            <p>Where every flavor tells a story. A taste you will remember!</p>
+            <p>Serving delicious food every single day since 1990!</p>
             <img src={require('../../images/retro-hamburger-image.gif')} className='about-img'></img>
         </div>
     )

@@ -5,7 +5,7 @@ import './menu.css'
 function Menu() {
     return (
         <div>
-            <h1 className='menu-title'>Menu</h1>
+            <h1 className='menu-title'>Our Menu</h1>
             <div className="menu-container">
                 <Products
                     name="Hamburger"
@@ -52,6 +52,12 @@ function Menu() {
                 <Products
                     name="Hamburger"
                     description="#8"
+                    price="$10.000"
+                    image={require('../../images/hamburger-img.png')}
+                />
+                            <Products
+                    name="Hamburger"
+                    description="#9"
                     price="$10.000"
                     image={require('../../images/hamburger-img.png')}
                 />

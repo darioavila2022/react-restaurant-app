@@ -16,6 +16,8 @@ function Home() {
                 <button className='home-button' onClick={() => { navigate("/book"); }}>Book</button>
             </div>
             <img src={require('../../images/restaurant-retro.jpg')} className='home-img'></img>
+            <button className='phone-version-btn' onClick={() => { navigate("/menu"); }}>Menu</button>
+            <button className='phone-version-btn' onClick={() => { navigate("/book"); }}>Book</button>
             <div>
             </div>
         </div>

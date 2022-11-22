@@ -19,7 +19,6 @@ const Form = () => {
     comments: "",
   })
 
-
   async function handleSubmit(event) {
     event.preventDefault()
     console.log(details)
@@ -33,10 +32,9 @@ const Form = () => {
     } catch (e) {
       console.error("Error in adding document", e)
     } finally {
-      document.getElementById('contactForm').reset()
+      document.getElementById('book-form').reset()
     }
   }
-
 
   function handleChange(event) {
     const { target } = event
@@ -55,12 +53,16 @@ const Form = () => {
           <button className="btn modal-close">Close</button>
         </div>
       </div>
-      <h1 className='book-title'>Book a table</h1>
-      <form id="contactForm" className="book-form" onSubmit={handleSubmit}>
-        <h4>Name:</h4> <input type="text" name="name" onChange={handleChange} />
-        <h4>Email:</h4> <input type="email" name="email" onChange={handleChange} />
-        <h4>Address:</h4> <input type="text" name="address" onChange={handleChange} />
-        {/* <h4>Number of people:</h4> <input  type="range" min="1" max="5" name="peopleNumber" onChange={handleChange} /> */}
+
+      <form id="book-form" className="book-form" onSubmit={handleSubmit}>
+        <h4>Name:</h4>
+        <input type="text" name="name" onChange={handleChange} />
+        <h4>Email:</h4>
+        <input type="email" name="email" onChange={handleChange} />
+        <h4>Address:</h4>
+        <input type="text" name="address" onChange={handleChange} />
+        {/* <h4>Number of people:</h4> 
+        <input  type="range" min="1" max="5" name="peopleNumber" onChange={handleChange} /> */}
         <h4>Table for:</h4>
         <select name="peopleNumber" onChange={handleChange}>
           <option value="1">1 Person</option>
@@ -68,9 +70,12 @@ const Form = () => {
           <option value="3">3 People</option>
           <option value="4">4 People</option>
         </select>
-        <h4>Phone Number:</h4> <input type="tel" name="phone" onChange={handleChange} />
-        <h4>Time and Date of reservation:</h4> <input type="datetime-local" name="reservationTime" onChange={handleChange} />
-        <h4>Additional Comments:</h4> <textarea type="text" name="comments" onChange={handleChange} />
+        <h4>Phone Number:</h4>
+        <input type="tel" name="phone" onChange={handleChange} />
+        <h4>Time and Date of reservation:</h4>
+        <input type="datetime-local" name="reservationTime" onChange={handleChange} />
+        <h4>Additional Comments:</h4>
+        <textarea type="text" name="comments" onChange={handleChange} />
         <button type="submit" className="submit-book">Submit Reservation</button>
       </form>
     </div>

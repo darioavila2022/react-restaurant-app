@@ -3,9 +3,10 @@ import Form from "./form/Form";
 
 import './book.css'
 
-function Book () {
+function Book() {
     return (
-        <div className='form'>
+        <div>
+            <h1 className='book-title'>Book a table</h1>
             <Form />
         </div>
     )

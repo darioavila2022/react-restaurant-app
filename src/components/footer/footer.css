@@ -21,3 +21,15 @@ footer a:hover {
   transform: scale(1.3);
   transition: 0.2s;
 }
+
+@media only screen and (max-width: 600px)
+{
+  footer {
+    margin-top: 20px;
+  }
+
+  footer ul {
+    padding: 0px;
+  }
+
+}

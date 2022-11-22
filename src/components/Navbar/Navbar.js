@@ -2,21 +2,6 @@ import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import './navbar.css';
 
-// function Navbar() {
-
-//   return (
-//     <nav>
-//       <ul>
-//         <a href="/">Home</a>
-//         <a href="/about">About</a>
-//         <a href="/menu">Menu</a>
-//         <a href="/book">Book</a>
-//         <a href="/contact">Contact</a>
-//      </ul>
-//      </nav>
-//   )
-// }
-
 const Navbar = () => {
   return (
     <>
@@ -40,13 +25,11 @@ const Navbar = () => {
           <li>
             <Link to="/contact" className='navlink'>Contact</Link>
           </li>
-
         </ul>
       </nav>
       <Outlet />
     </>
   )
 }
-
 
 export default Navbar;
