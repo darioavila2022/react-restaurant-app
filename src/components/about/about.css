@@ -1,0 +1,15 @@
+.about-container {
+    margin: 100px 100px 100px 100px;
+    color: #ffffff;
+}
+
+.about-title {
+    font-size: 60px;
+    margin: 0px;
+    text-shadow: #000000 1px 0 10px;
+}
+
+.about-img {
+    border-radius: 20px;
+    width: 700px;
+}

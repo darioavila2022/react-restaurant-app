@@ -1,13 +1,13 @@
 import React from "react";
-import './menu.css'
+import './products.css'
 
 function Products(props) {
     return(
-    <div className="products">
-        <p>{props.name}</p>
+<div className="products">
+        <h1>{props.name}</h1>
         <p>{props.description}</p>
         <p>{props.price}</p>
-        <img src={props.image} alt='WebPage'/>  
+        <img src={props.image} alt='products-img' className="products-img"/>  
     </div>
     );
 }

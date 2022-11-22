@@ -1,15 +1,15 @@
-.container {
+.home-container {
     margin: 100px;
     color: #ffffff;
 }
 
-.title {
+.home-title {
     font-size: 100px;
     margin: 0px;
     text-shadow: #000000 1px 0 10px;
 }
 
-button {
+.home-button {
     padding: 15px 30px 15px 30px;
     margin: 10px 10px 0px 0px;
     border-radius: 20px;
@@ -19,7 +19,13 @@ button {
     border: none;
 }
 
-button:hover {
+.home-button:hover {
     transform: scale(1.1);
     transition: 0.2s;
+}
+
+.home-img {
+    border-radius: 20px;
+    width: 900px;
+    margin-top: 30px;
 }

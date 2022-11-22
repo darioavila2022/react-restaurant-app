@@ -53,21 +53,20 @@ function Contact() {
                     <button className="btn modal-close">Close</button>
                 </div>
             </div>
-            <h2>Contact us:</h2>
-            <h3>Do you like food? Do you like the 80s? If yes, then this restaurant is for you.</h3>
-            <h3>We serve food for reasonable prices.</h3>
-            <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
-                <h4>Name:</h4> <input type="text" name="name" onChange={handleChange} />
-                <h4>Email:</h4> <input type="email" name="email" onChange={handleChange} />
-                <h4>Phone Number:</h4> <input type="tel" name="phone" onChange={handleChange} />
-                <h4>Comment:</h4> <textarea type="text" name="comment" onChange={handleChange} />
-                <button type="submit" className="submit">Send comment</button>
-                <h2>Contact Details:</h2>
+            <h1 className='contact-title'>Contact us!</h1>
+            <form id="contactForm" className="contact-form2" onSubmit={handleSubmit}>
+            <h1>Do you like food? Do you like the 80s? If yes, then this restaurant is for you.</h1>
+                <p>Name:</p> <input type="text" name="name" onChange={handleChange} />
+                <p>Email:</p> <input type="email" name="email" onChange={handleChange} />
+                <p>Phone Number:</p> <input type="tel" name="phone" onChange={handleChange} />
+                <p>Comment:</p> <textarea type="text" name="comment" onChange={handleChange} />
+                <button type="submit" className="submit-contact">Send comment</button>
+                {/* <h2>Contact Details:</h2>
                 <p>80/A, Tubular Boulevard, New York, United States</p>
                 <p>+600600800900</p>
-                <p>retro-restaurant@mailbox.com</p>
+                <p>retro-restaurant@mailbox.com</p> */}
             </form>
-        </div>
+            </div>
     )
 }
 
