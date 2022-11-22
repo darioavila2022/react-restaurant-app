@@ -55,7 +55,8 @@ const Form = () => {
           <button className="btn modal-close">Close</button>
         </div>
       </div>
-      <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
+      <h1 className='book-title'>Book a table</h1>
+      <form id="contactForm" className="book-form" onSubmit={handleSubmit}>
         <h4>Name:</h4> <input type="text" name="name" onChange={handleChange} />
         <h4>Email:</h4> <input type="email" name="email" onChange={handleChange} />
         <h4>Address:</h4> <input type="text" name="address" onChange={handleChange} />
@@ -70,7 +71,7 @@ const Form = () => {
         <h4>Phone Number:</h4> <input type="tel" name="phone" onChange={handleChange} />
         <h4>Time and Date of reservation:</h4> <input type="datetime-local" name="reservationTime" onChange={handleChange} />
         <h4>Additional Comments:</h4> <textarea type="text" name="comments" onChange={handleChange} />
-        <button type="submit" className="submit">Submit Reservation</button>
+        <button type="submit" className="submit-book">Submit Reservation</button>
       </form>
     </div>
   )
