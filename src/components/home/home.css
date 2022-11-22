@@ -1,14 +1,25 @@
-h1 { 
-    margin: 200px 50px 100px 50px;
-    color: white;
-}
-
-h2 {
-    margin: 100px 50px 150px 50px;
-    color: white;
-    text-align: justify;
-}
-
 .container {
-    margin: 20px 0px 20px 0px;
+    margin: 100px;
+    color: #ffffff;
+}
+
+.title {
+    font-size: 100px;
+    margin: 0px;
+    text-shadow: #000000 1px 0 10px;
+}
+
+button {
+    padding: 15px 30px 15px 30px;
+    margin: 10px 10px 0px 0px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: #000000 1px 0px 5px;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
