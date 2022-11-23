@@ -12,9 +12,8 @@ const Form = () => {
   const [details, setDetails] = useState({
     name: "",
     email: "",
-    address: "",
-    peopleNumber: "",
     phone: "",
+    peopleNumber: "",
     reservationTime: "",
     comments: "",
   })
@@ -59,8 +58,8 @@ const Form = () => {
         <input type="text" name="name" onChange={handleChange} />
         <p>Email:</p>
         <input type="email" name="email" onChange={handleChange} />
-        <p>Address:</p>
-        <input type="text" name="address" onChange={handleChange} />
+        <p>Phone Number:</p>
+        <input type="tel" name="phone" onChange={handleChange} />
         <p>Table for:</p>
         <select name="peopleNumber" onChange={handleChange}>
           <option value="1">1 Person</option>
@@ -68,8 +67,6 @@ const Form = () => {
           <option value="3">3 People</option>
           <option value="4">4 People</option>
         </select>
-        <p>Phone Number:</p>
-        <input type="tel" name="phone" onChange={handleChange} />
         <p>Time and Date of reservation:</p>
         <input type="datetime-local" name="reservationTime" onChange={handleChange} />
         <p>Additional Comments:</p>

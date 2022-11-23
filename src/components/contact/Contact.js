@@ -64,10 +64,6 @@ function Contact() {
         <p>Comment:</p>
         <textarea type="text" name="comment" onChange={handleChange} />
         <button type="submit" className="submit-btn">Submit</button>
-        {/* <h2>Contact Details:</h2>
-                <p>80/A, Tubular Boulevard, New York, United States</p>
-                <p>+600600800900</p>
-                <p>retro-restaurant@mailbox.com</p> */}
       </form>
     </div>
   )
