@@ -1,40 +1,37 @@
 .book-form {
-  margin: 0px 900px 30px 100px;
-  padding: 50px 100px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  margin-bottom: 50px;
   background-color: rgba(255, 255, 255, 0.73);
   border-radius: 10px;
 }
 
-.book-form input {
-  width: 99%;
+.book-form input,
+textarea {
+  width: 90%;
   border-radius: 5px;
   padding: 10px;
 }
 
 .book-form select {
-  width: 100%;
+  width: 92%;
   border-radius: 5px;
   padding: 10px;
 }
 
-.book-form textarea {
-  width: 99%;
-  border-radius: 5px;
+.submit-btn {
+  width: 120px;
   padding: 10px;
-}
-
-.submit-book {
-  padding: 15px 30px 15px 30px;
-  margin: 10px 10px 0px 0px;
-  border-radius: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
   transition-duration: 0.4s;
   cursor: pointer;
   box-shadow: #000000 1px 0px 5px;
   border: none;
-  display: block;
 }
 
-.submit-book:hover {
+.submit-btn:hover {
   transform: scale(1.1);
   transition: 0.2s;
 }
@@ -88,29 +85,24 @@
 
   .book-form {
     margin: 0px;
-    padding: 10px 0px 10px 20px;
+    padding: 10px 20px;
   }
-
-  .book-form h4 {
-    font-size: 18px;
-  }
-
-  .book-form input {
-    width: 80%;
-  }
-
-  .book-form select {
-    width: 90%;
-  }
-
-  .book-form textarea {
-    width: 80%;
-  }
-
-  .submit-book {
-    margin: 10px 0px;
-    padding: 15px;
-    font-size: 15px;
-  }
-
 }
+
+@media only screen and (min-width: 1200px) {
+
+  .book-form {
+    margin-left: 100px;
+    padding: 20px;
+    width: 50%;
+  }
+}
+
+/* @media only screen and
+(max-width: 768px),
+(max-width: 992px),
+(max-width: 1200px)  
+
+{
+
+} */

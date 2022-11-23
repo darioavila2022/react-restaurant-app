@@ -55,28 +55,26 @@ const Form = () => {
       </div>
 
       <form id="book-form" className="book-form" onSubmit={handleSubmit}>
-        <h4>Name:</h4>
+        <p>Name:</p>
         <input type="text" name="name" onChange={handleChange} />
-        <h4>Email:</h4>
+        <p>Email:</p>
         <input type="email" name="email" onChange={handleChange} />
-        <h4>Address:</h4>
+        <p>Address:</p>
         <input type="text" name="address" onChange={handleChange} />
-        {/* <h4>Number of people:</h4> 
-        <input  type="range" min="1" max="5" name="peopleNumber" onChange={handleChange} /> */}
-        <h4>Table for:</h4>
+        <p>Table for:</p>
         <select name="peopleNumber" onChange={handleChange}>
           <option value="1">1 Person</option>
           <option value="2">2 People</option>
           <option value="3">3 People</option>
           <option value="4">4 People</option>
         </select>
-        <h4>Phone Number:</h4>
+        <p>Phone Number:</p>
         <input type="tel" name="phone" onChange={handleChange} />
-        <h4>Time and Date of reservation:</h4>
+        <p>Time and Date of reservation:</p>
         <input type="datetime-local" name="reservationTime" onChange={handleChange} />
-        <h4>Additional Comments:</h4>
+        <p>Additional Comments:</p>
         <textarea type="text" name="comments" onChange={handleChange} />
-        <button type="submit" className="submit-book">Submit Reservation</button>
+        <button type="submit" className="submit-btn">Submit</button>
       </form>
     </div>
   )

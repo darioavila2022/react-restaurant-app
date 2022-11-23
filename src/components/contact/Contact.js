@@ -55,8 +55,6 @@ function Contact() {
       <h1 className='contact-title'>Contact us</h1>
 
       <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
-        <p>Do you like food? Do you like the 80s? If yes, then this restaurant is for you.</p>
-
         <p>Name:</p>
         <input type="text" name="name" onChange={handleChange} />
         <p>Email:</p>
@@ -65,8 +63,7 @@ function Contact() {
         <input type="tel" name="phone" onChange={handleChange} />
         <p>Comment:</p>
         <textarea type="text" name="comment" onChange={handleChange} />
-
-        <button type="submit" className="submit-contact">Send comment</button>
+        <button type="submit" className="submit-btn">Submit</button>
         {/* <h2>Contact Details:</h2>
                 <p>80/A, Tubular Boulevard, New York, United States</p>
                 <p>+600600800900</p>
