@@ -1,7 +1,7 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
-import './home.css'
+import './home.css';
 
 function Home() {
 
@@ -15,13 +15,13 @@ function Home() {
                 <button className='home-button' onClick={() => { navigate("/menu"); }}>Menu</button>
                 <button className='home-button' onClick={() => { navigate("/book"); }}>Book</button>
             </div>
-            <img src={require('../../images/restaurant-retro.jpg')} className='home-img'></img>
-            <button className='phone-version-btn' onClick={() => { navigate("/menu"); }}>Menu</button>
-            <button className='phone-version-btn' onClick={() => { navigate("/book"); }}>Book</button>
             <div>
+                <img className='home-img' src={require('../../images/retro-dining.jpg')} alt='dining-img'></img>
+                <button className='mobile-btn' onClick={() => { navigate("/menu"); }}>Menu</button>
+                <button className='mobile-btn' onClick={() => { navigate("/book"); }}>Book</button>
             </div>
         </div>
     )
-}
+};
 
-export default Home
+export default Home;

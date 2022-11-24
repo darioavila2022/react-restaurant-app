@@ -1,71 +1,72 @@
-import React, { useState } from "react";
+import React from 'react';
+
 import Products from './Products'
 import './menu.css'
 
 function Menu() {
 
     return (
-        <div>
-            <h1 className='menu-title'>Our Menu</h1>
-            <div className="menu-container">
+        <div className="menu-container">
+            <h2>Our Menu</h2>
+            <div className="menu-items">
                 <Products
-                    name="Hamburger1"
+                    name="Hamburger"
                     description="#1"
                     price="$10.000"
                     image={require('../../images/hamburger-img.png')}
                 />
                 <Products
-                    name="Hamburger2"
+                    name="Hamburger"
                     description="#2"
                     price="$10.000"
                     image={require('../../images/hamburger-img.png')}
                 />
                 <Products
-                    name="Hamburger3"
+                    name="Hamburger"
                     description="#3"
                     price="$10.000"
                     image={require('../../images/hamburger-img.png')}
                 />
                 <Products
-                    name="Hamburger4"
+                    name="Iced Coffee"
                     description="#4"
                     price="$10.000"
-                    image={require('../../images/hamburger-img.png')}
+                    image={require('../../images/icecoffee-img.png')}
                 />
                 <Products
-                    name="Hamburger5"
+                    name="Iced Coffee"
                     description="#5"
                     price="$10.000"
-                    image={require('../../images/hamburger-img.png')}
+                    image={require('../../images/icecoffee-img.png')}
                 />
                 <Products
-                    name="Hamburger6"
+                    name="Iced Coffee"
                     description="#6"
                     price="$10.000"
-                    image={require('../../images/hamburger-img.png')}
+                    image={require('../../images/icecoffee-img.png')}
                 />
                 <Products
-                    name="Hamburger7"
+                    name="French Fries"
                     description="#7"
                     price="$10.000"
-                    image={require('../../images/hamburger-img.png')}
+                    image={require('../../images/fries-img.png')}
                 />
                 <Products
-                    name="Hamburger8"
+                    name="French Fries"
                     description="#8"
                     price="$10.000"
-                    image={require('../../images/hamburger-img.png')}
+                    image={require('../../images/fries-img.png')}
                 />
                 <Products
-                    name="Hamburger9"
+                    name="French Fries"
                     description="#9"
                     price="$10.000"
-                    image={require('../../images/hamburger-img.png')}
+                    image={require('../../images/fries-img.png')}
                 />
             </div>
         </div>
     )
-}
+};
 
-export default Menu
+export default Menu;
 

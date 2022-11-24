@@ -1,14 +1,32 @@
-import React from "react";
-import './about.css'
+import React from 'react';
+import { useState, useEffect } from 'react';
 
-function About () {
+import './about.css';
+
+function About() {
+
+    const [infoAbout, setInfoAbout] = useState('Click the buttons to get further information')
+
+    useEffect(() => {
+
+        return () => {
+            console.log('return from resource change')
+        }
+    }, [infoAbout])
+
     return (
-        <div className="about-container">
-            <h1 className='about-title'>About us</h1>
+        <div className='about-container'>
+            <h2>About us</h2>
             <p>Serving delicious food every single day since 1990!</p>
-            <img src={require('../../images/retro-hamburger-image.gif')} className='about-img'></img>
+            <div>
+                <button onClick={() => setInfoAbout('retrorestaurant@email.com')}>Email</button>
+                <button onClick={() => setInfoAbout('(212) 346 7885')}>Phone</button>
+                <button onClick={() => setInfoAbout('80-A Tubular Boulevard, Scranton, Pennsylvania')}>Address</button>
+            </div>
+            <p>{infoAbout}</p>
+            <img className='about-img' src={require('../../images/retro-burger.gif')} alt='burger-img'></img>
         </div>
     )
-}
+};
 
-export default About
+export default About;

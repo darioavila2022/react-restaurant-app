@@ -1,39 +1,28 @@
+.book-form-container {
+  margin: 4rem 5rem 2rem 5rem;
+}
+
 .book-form {
+  margin-top: 1rem;
+  padding: 2rem 0rem;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
-  margin-bottom: 50px;
-  background-color: rgba(255, 255, 255, 0.73);
-  border-radius: 10px;
+  background-color: #ffffffba;
+  border-radius: 1rem;
 }
 
 .book-form input,
 textarea {
   width: 90%;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
 }
 
 .book-form select {
   width: 92%;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.submit-btn {
-  width: 120px;
-  padding: 10px;
-  margin-top: 20px;
-  border-radius: 10px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  box-shadow: #000000 1px 0px 5px;
-  border: none;
-}
-
-.submit-btn:hover {
-  transform: scale(1.1);
-  transition: 0.2s;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
 }
 
 .modal-wrap {
@@ -43,66 +32,58 @@ textarea {
   position: fixed;
   top: 0;
   z-index: 4;
-  width: 100%;
+  width: 90%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-wrap .modal {
   text-align: center;
-  padding: 50px;
-  border-radius: 8px;
-  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  box-shadow: #0000008f 0px 22px 70px 4px;
 }
 
 .modal-wrap .modal img {
-  width: 200px;
+  width: 11rem;
   height: auto;
-  margin-bottom: 16px;
-}
-
-.modal-wrap .modal p:nth-child(2) {
-  font-size: 24px;
-  margin-bottom: 8px;
-}
-
-.modal-wrap .modal .btn {
-  margin-top: 24px;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-
-.modal-wrap .modal .btn:hover {
-  border-color: aqua;
-  color: aqua;
 }
 
 .display-none {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px),
+(max-width: 1024px) {
+
+  .book-form-container {
+    margin: 1rem 0rem;
+  }
 
   .book-form {
-    margin: 0px;
-    padding: 10px 20px;
+    padding: 0.5rem 0rem;
   }
-}
 
-@media only screen and (min-width: 1200px) {
-
-  .book-form {
-    margin-left: 100px;
-    padding: 20px;
-    width: 50%;
+  .book-form input,
+  textarea {
+    width: 85%;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
   }
+
+  .book-form select {
+    width: 90%;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .modal-wrap {
+    width: 95%;
+  }
+
+  .modal-wrap .modal {
+    margin: 0rem;
+    padding: 1rem;
+  }
+  
 }
-
-/* @media only screen and
-(max-width: 768px),
-(max-width: 992px),
-(max-width: 1200px)  
-
-{
-
-} */

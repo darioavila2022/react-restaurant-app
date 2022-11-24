@@ -3,12 +3,13 @@ import { Link, Outlet } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
+  
   return (
     <>
       <nav>
         <ul>
           <span>
-            <img src={require('../../images/retro-logo.png')} className='navbar-logo'></img>
+            <img className='navbar-logo' src={require('../../images/retro-logo.png')} alt='logo' ></img>
           </span>
           <li>
             <Link to="/" className='navlink'>Home</Link>

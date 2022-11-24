@@ -1,15 +1,12 @@
-import React from "react";
-import Form from "./form/Form";
-
-import './book.css'
+import React from 'react';
+import Form from './form/Form';
 
 function Book() {
     return (
         <div>
-            <h1 className='book-title'>Book a table</h1>
             <Form />
         </div>
     )
-}
+};
 
-export default Book
+export default Book;

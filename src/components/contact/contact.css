@@ -1,60 +1,89 @@
-.contact-title {
-    margin: 100px 100px 30px 100px;
-    font-size: 60px;
-    text-shadow: #000000 1px 0 10px;
-    color: white;
+.contact-container {
+    margin: 4rem 5rem 2rem 5rem;
 }
 
 .contact-form {
+    margin-top: 1rem;
+    padding: 2rem 0rem;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    margin-bottom: 50px;
-    background-color: rgba(255, 255, 255, 0.73);
-    border-radius: 10px;
+    background-color: #ffffffba;
+    border-radius: 1rem;
 }
 
 .contact-form input,
 textarea {
     width: 90%;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
 }
 
-.submit-btn {
-    width: 120px;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    box-shadow: #000000 1px 0px 5px;
-    border: none;
+.contact-form select {
+    width: 92%;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
 }
 
-.submit-btn:hover {
-    transform: scale(1.1);
-    transition: 0.2s;
+.modal-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 90%;
+    height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+.modal-wrap .modal {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: #0000008f 0px 22px 70px 4px;
+}
 
-    .contact-title {
-        margin: 0px;
-        font-size: 40px;
+.modal-wrap .modal img {
+    width: 11rem;
+    height: auto;
+}
+
+.display-none {
+    display: none;
+}
+
+@media only screen and (max-width: 768px),
+(max-width: 1024px) {
+
+    .contact-container {
+        margin: 1rem 0rem;
     }
 
     .contact-form {
-        margin: 0px;
-        padding: 10px 20px;
+        padding: 0.5rem 0rem;
     }
-}
 
-@media only screen and (min-width: 1200px) {
-
-    .contact-form {
-        margin-left: 100px;
-        padding: 20px;
-        width: 50%;
+    .contact-form input,
+    textarea {
+        width: 85%;
+        border-radius: 0.5rem;
+        padding: 0.8rem;
     }
+
+    .contact-form select {
+        width: 90%;
+        border-radius: 0.5rem;
+        padding: 0.8rem;
+    }
+
+    .modal-wrap {
+        width: 95%;
+    }
+
+    .modal-wrap .modal {
+        margin: 0rem;
+        padding: 1rem;
+    }
+
 }

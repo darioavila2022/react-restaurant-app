@@ -3,7 +3,7 @@ import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../config/firestore";
 
 import './contact.css'
-import modalImage from '../../images/modalImageContact.jpg'
+import modalImage from '../../images/contact-modal-img.jpg'
 
 function Contact() {
 
@@ -45,26 +45,27 @@ function Contact() {
     <div>
       <div className="modal-wrap display-none">
         <div className="modal">
-          <img src={modalImage} alt="" />
-          <p>Thank you for your comment!</p>
-          <p>It really helps us become better</p>
+          <img src={modalImage} alt="modal-img" />
+          <h3>Thank you for your comment!</h3>
+          <h3>It really helps us become better</h3>
           <button className="btn modal-close">Close</button>
         </div>
       </div>
 
-      <h1 className='contact-title'>Contact us</h1>
-
-      <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
-        <p>Name:</p>
-        <input type="text" name="name" onChange={handleChange} />
-        <p>Email:</p>
-        <input type="email" name="email" onChange={handleChange} />
-        <p>Phone Number:</p>
-        <input type="tel" name="phone" onChange={handleChange} />
-        <p>Comment:</p>
-        <textarea type="text" name="comment" onChange={handleChange} />
-        <button type="submit" className="submit-btn">Submit</button>
-      </form>
+      <div className="contact-container">
+        <h2>Contact us</h2>
+        <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
+          <h3>Name:</h3>
+          <input type="text" name="name" onChange={handleChange} />
+          <h3>Email:</h3>
+          <input type="email" name="email" onChange={handleChange} />
+          <h3>Phone Number:</h3>
+          <input type="tel" name="phone" onChange={handleChange} />
+          <h3>Comment:</h3>
+          <textarea type="text" name="comment" onChange={handleChange} />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   )
 }

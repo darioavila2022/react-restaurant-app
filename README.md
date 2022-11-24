@@ -10,13 +10,12 @@ Uso de estética "retro" acorde al efecto deseado (consultar sección "prototipa
 * [1. Instalación](#1-instalacion)
 * [2. Funciones usadas](#2-funciones)
 * [3. Demo](#3-demo)
-* [4. Screenshots](#4-screenshots)
-* [5. Prototipado](#5-prototipado)
-* [6. Autores](#6-autores)
+* [4. Prototipado](#4-prototipado)
+* [5. Autores](#5-autores)
 
 ***
 
-## Installación 
+## Instalación 
 
 Intalación de firebase con npm:
 
@@ -40,7 +39,7 @@ Intalación de react-router-dom con npm:
 ```
 
     
-## Funciones usadas 
+## Funciones utilizadas 
 
 - Almacenamiento de datos en Firestore (en la consola consultar respuesta generada por console.log para recibir ID único generado por Firestore por cada ingreso de datos).
 - Responsiveness
@@ -53,16 +52,9 @@ Intalación de react-router-dom con npm:
 
 [Demo](https://github.com/darioavila2022/react-restaurant-app)
 
-
-## Screenshots 
-
-![Screenshot](./src/images/Screenshot.png)
-![Screenshot](./src/images/Screenshot2.png)
-
-
 ## Prototipado
 
-![Prototipado](./src/images/simplePrototype.jpg)
+![Prototipado](./src/images/simple-prototype.jpg)
 
 ## Autores
 

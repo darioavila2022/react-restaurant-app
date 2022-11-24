@@ -1,22 +1,21 @@
 nav {
   overflow: hidden;
   background-color: #4B4A54;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .navbar-logo {
-  width: 100px;
-  margin-right: 20px;
+  width: 5rem;
 }
 
 nav .navlink {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
 nav li {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.5rem 1rem;
 }
 
 nav li:hover {
@@ -24,15 +23,10 @@ nav li:hover {
   transition: 0.2s;
 }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 768px)
 {
-
-  nav {
-    margin-bottom: 20px;
-  }
-
   nav ul {
-    padding: 0px;
+    padding: 0rem;
   }
 
   nav li {
@@ -45,14 +39,3 @@ nav li:hover {
     margin: 0 auto;
   }
 }
-
-/* @media only screen and
-(min-width: 600px),
-(min-width: 768px),
-(min-width: 992px),
-(min-width: 1200px) 
-
-{
-
-
-} */
