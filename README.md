@@ -2,7 +2,7 @@
 
 Proyecto creado usando la librería para JavaScript "React.JS".
 La página web desarrollada muestra un restaurant ficticio llamado "RetroRestaurant" el cual cuenta con secciones tales como menú, contacto, sección de reservas de mesas donde el usuario ingresa sus datos los cuales quedan almacenados en una base de datos externa.
-Uso de estética "retro" acorde al efecto deseado (consultar sección "prototipado" para más detalles)
+Uso de estética "retro" acorde al efecto deseado (consultar sección "prototipado" para más detalles). Se utilizó el comando "npm-run-buil" para realizar el deployment.
 
 
 ## **ÍNDICE**
@@ -50,7 +50,7 @@ Intalación de react-router-dom con npm:
 
 ## 3. Demo 
 
-[Demo](https://github.com/darioavila2022/react-restaurant-app)
+[Demo](https://famous-vacherin-56ae21.netlify.app/)
 
 ## 4. Prototipado
 
