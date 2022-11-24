@@ -1,22 +1,19 @@
-.menu-container {
-  margin-top: 4rem;
-  margin-left: 5rem;
-}
-
 .menu-items {
   display: grid;
-  margin: 1rem 5rem 2rem 0rem;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   grid-template-areas:
     'auto auto auto';
 }
 
-@media only screen and (max-width: 768px) {
-
-  .menu-container {
-    margin: 1rem 0.5rem;
+@media only screen and (max-width: 1280px) {
+  .menu-items {
+    margin: 1rem 0rem;
+    grid-template-areas:
+      'auto auto';
   }
+}
 
+@media only screen and (max-width: 768px) {
   .menu-items {
     margin: 1rem 0rem;
     grid-template-areas:

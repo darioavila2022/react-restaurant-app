@@ -47,12 +47,12 @@ function Contact() {
         <div className="modal">
           <img src={modalImage} alt="modal-img" />
           <h3>Thank you for your comment!</h3>
-          <h3>It really helps us become better</h3>
+          <h3>It really helps us become better.</h3>
           <button className="btn modal-close">Close</button>
         </div>
       </div>
 
-      <div className="contact-container">
+      <div className="component-container">
         <h2>Contact us</h2>
         <form id="contactForm" className="contact-form" onSubmit={handleSubmit}>
           <h3>Name:</h3>

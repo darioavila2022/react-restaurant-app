@@ -50,13 +50,13 @@ const Form = () => {
           <div className="modal">
             <img src={modalImage} alt="modal-img" />
             <h3>Thank you for your reservation!</h3>
-            <h3>See you at the restaurant</h3>
+            <h3>See you at the restaurant.</h3>
             <button className="btn modal-close">Close</button>
           </div>
         </div>
       </div>
 
-      <div className='book-form-container'>
+      <div className='component-container'>
       <h2>Book a table</h2>
         <form id="book-form" className="book-form" onSubmit={handleSubmit}>
           <h3>Name:</h3>

@@ -1,19 +1,13 @@
-.about-container {
-    margin-top: 4rem;
-    margin-left: 5rem;
-}
-
 .about-img {
-    margin-bottom: 2rem;
     width: 30rem;
     border-radius: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
+.infoAbout {
+    font-size: 1.1rem;
+}
 
-    .about-container {
-        margin: 0rem;
-    }
+@media only screen and (max-width: 1024px) {
 
     .about-img {
         margin: 0.5rem 0rem;
@@ -21,11 +15,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
-
-    .about-container {
-        margin: 0.5rem;
-    }
+@media only screen and (max-width: 768px) {
 
     .about-img {
         margin: 0.5rem 0rem;
