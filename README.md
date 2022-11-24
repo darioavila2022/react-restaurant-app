@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Restaurant React.JS Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto creado usando la librería para JavaScript "React.JS".
+La página web desarrollada muestra un restaurant ficticio llamado "RetroRestaurant" el cual cuenta con secciones tales como menú, contacto, sección de reservas de mesas donde el usuario ingresa sus datos los cuales quedan almacenados en una base de datos externa.
+Uso de estética "retro" acorde al efecto deseado (consultar sección "prototipado" para más detalles)
 
-## Available Scripts
 
-In the project directory, you can run:
+## **ÍNDICE**
 
-### `npm start`
+* [1. Instalación](#1-instalacion)
+* [2. Funciones usadas](#2-funciones)
+* [3. Demo](#3-demo)
+* [4. Screenshots](#4-screenshots)
+* [5. Prototipado](#5-prototipado)
+* [6. Autores](#6-autores)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+***
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installación 
 
-### `npm test`
+Intalación de firebase con npm:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  npm i firebase
+```
+Intalación de react con npm:
 
-### `npm run build`
+```bash
+  npm i react
+```
+Intalación de react-dom con npm:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm i react-dom
+```
+Intalación de react-router-dom con npm:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm i react-router-dom
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    
+## Funciones usadas 
 
-### `npm run eject`
+- Almacenamiento de datos en Firestore (en la consola consultar respuesta generada por console.log para recibir ID único generado por Firestore por cada ingreso de datos).
+- Responsiveness
+- Librería React.JS (componentes y props)
+- Paquete ReactDom (useNavigate, Link, Outlet)
+- React Hooks (useState, useEffect)
+- Modals que cierran con el uso de un botón
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Demo 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Demo](https://github.com/darioavila2022/react-restaurant-app)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots 
 
-## Learn More
+![Screenshot](./src/images/Screenshot.png)
+![Screenshot](./src/images/Screenshot2.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Prototipado
 
-### Code Splitting
+![Prototipado](./src/images/simplePrototype.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Autores
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Darío Ávila](https://github.com/darioavila2022)
+- [Paulina Cárcamo](https://github.com/PaulinaCarcamo)
