@@ -2,61 +2,75 @@
 
 Proyecto creado usando la librería para JavaScript "React.JS".
 La página web desarrollada muestra un restaurant ficticio llamado "RetroRestaurant" el cual cuenta con secciones tales como menú, contacto, sección de reservas de mesas donde el usuario ingresa sus datos los cuales quedan almacenados en una base de datos externa.
-Uso de estética "retro" acorde al efecto deseado (consultar sección "prototipado" para más detalles). Se utilizó el comando "npm-run-buil" para realizar el deployment.
+Uso de estética "retro" acorde al efecto deseado (consultar sección "prototipado" para más detalles). Se utilizó el comando "npm-run-build" para realizar el deployment.
 
 
-## **ÍNDICE**
+## **Índice**
 
-* [1. Instalación](#1-instalación)
-* [2. Funciones usadas](#2-funciones-usadas)
-* [3. Demo](#3-demo)
-* [4. Prototipado](#4-prototipado)
-* [5. Autores](#5-autores)
+* [1. Demo](#1-demo)
+* [2. Instalación](#2-instalación)
+* [3. Funciones utilizadas](#3-funciones-utilizadas)
+* [4. Desarrollo](#4-desarrollo)
+* [5. Prototipado](#5-prototipado)
+* [6. Autores](#6-autores)
 
 ***
 
-## 1. Instalación 
+## 1. Demo 
 
-Intalación de firebase con npm:
+[Demo](https://famous-vacherin-56ae21.netlify.app/)
 
-```bash
-  npm i firebase
-```
-Intalación de react con npm:
+## 2. Instalación 
 
-```bash
-  npm i react
-```
-Intalación de react-dom con npm:
+Instalación de componentes:
 
 ```bash
-  npm i react-dom
+  npm install 
 ```
-Intalación de react-router-dom con npm:
+Inicialización en servidor local:
 
 ```bash
-  npm i react-router-dom
+  npm start
 ```
 
-    
-## 2. Funciones usadas 
+## 3. Funciones utilizadas
 
 - Almacenamiento de datos en Firestore (en la consola consultar respuesta generada por console.log para recibir ID único generado por Firestore por cada ingreso de datos).
-- Responsiveness
 - Librería React.JS (componentes y props)
 - Paquete ReactDom (useNavigate, Link, Outlet)
 - React Hooks (useState, useEffect)
 - Modals que cierran con el uso de un botón
+- Media queries para versión móvil
 
-## 3. Demo 
 
-[Demo](https://famous-vacherin-56ae21.netlify.app/)
+## 4. Desarrollo
 
-## 4. Prototipado
+Instalación de firebase con npm:
+
+```bash
+  npm i firebase
+```
+Instalación de react con npm:
+
+```bash
+  npm i react
+```
+Instalación de react-dom con npm:
+
+```bash
+  npm i react-dom
+```
+Instalación de react-router-dom con npm:
+
+```bash
+  npm i react-router-dom
+```
+## 5. Prototipado
 
 ![Prototipado](./src/images/simple-prototype.jpg)
 
-## 5. Autores
+## 6. Autores
 
 - [Darío Ávila](https://github.com/darioavila2022)
 - [Paulina Cárcamo](https://github.com/PaulinaCarcamo)
+
