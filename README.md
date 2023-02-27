@@ -1,8 +1,7 @@
 # Restaurant React.JS Project
 
 Proyecto creado usando la librería para JavaScript "React.JS".
-La página web desarrollada muestra un restaurant ficticio llamado "RetroRestaurant" el cual cuenta con secciones tales como menú, contacto, sección de reservas de mesas donde el usuario ingresa sus datos los cuales quedan almacenados en una base de datos externa.
-Uso de estética "retro" acorde al efecto deseado (consultar sección "prototipado" para más detalles). Se utilizó el comando "npm-run-buil" para realizar el deployment.
+La página web desarrollada muestra un restaurant ficticio llamado "RetroRestaurant" el cual cuenta con secciones tales como menú, contacto, sección de reservas de mesas donde el usuario ingresa sus datos los cuales quedan almacenados en una base de datos externa. Consultar sección "prototipado" para más detalles del esquema de la app. Se utilizó el comando "npm-run-build" para realizar el despliegue del sitio web en Netlify.
 
 
 ## **ÍNDICE**
@@ -54,7 +53,7 @@ Intalación de react-router-dom con npm:
 
 ## 4. Prototipado
 
-![Prototipado](./src/images/simple-prototype.jpg)
+[Prototipado](./src/images/simple-prototype.jpg)
 
 ## 5. Autores
 
