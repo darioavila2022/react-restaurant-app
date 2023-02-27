@@ -1,7 +1,7 @@
 # Restaurant React.JS Project
 
 Proyecto creado usando la librería para JavaScript "React.JS".
-La página web desarrollada muestra un restaurant ficticio llamado "RetroRestaurant" el cual cuenta con secciones tales como menú, contacto, sección de reservas de mesas donde el usuario ingresa sus datos los cuales quedan almacenados en una base de datos externa. Consultar sección "prototipado" para más detalles de la estructura de la app. Se utilizó el comando "npm-run-build" para realizar el despliegue del sitio web.
+La página web desarrollada muestra un restaurant ficticio llamado "RetroRestaurant" el cual cuenta con secciones tales como menú, contacto, sección de reservas de mesas donde el usuario ingresa sus datos los cuales quedan almacenados en la base de datos de Firebase. Consultar sección "prototipado" para más detalles de la estructura de la app. Se utilizó el comando "npm-run-build" para realizar el despliegue del sitio web.
 
 
 ## **ÍNDICE**
